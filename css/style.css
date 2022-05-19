@@ -43,7 +43,7 @@ body{
 /*  Start Home  */
 /* Estilo a todo el contenedor principal */
 .container-main {
-    background-image: url(/img/background.jpg);
+    background-image: url(https://images.pexels.com/photos/3943717/pexels-photo-3943717.jpeg?cs=srgb&dl=pexels-cottonbro-3943717.jpg&fm=jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -120,7 +120,7 @@ body{
 .aside {
     height: auto;
     margin: 0.5rem;
-    background-image: url(/img/cajero-automatico.jpg);
+    background-image: url(https://images.pexels.com/photos/8554371/pexels-photo-8554371.jpeg?cs=srgb&dl=pexels-liliana-drew-8554371.jpg&fm=jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.3rem;

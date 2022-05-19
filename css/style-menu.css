@@ -1,0 +1,113 @@
+:root {
+    --fuente: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+body{
+    font-family: var(--fuente);
+}
+.container{
+    background-color: white; 
+    display: flex;
+}
+.container__main{
+    width: 50%;
+    /* overflow: auto; */
+}
+.containerSidebar {
+    width: 50%;
+    height: 100vh;
+    background-image: url(/img/cajero-automatico.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contenedorLogo h1{
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.contenedor-boton{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 2.5rem;
+}
+.btn-salir{
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #202124;
+    color: white;
+    border-radius: 1rem;
+    border: none; 
+}
+.btn-salir:hover{
+    cursor: pointer;
+    background-color: #B22727;
+}
+
+.contanedorBienvenido h1{
+    padding: 1.5rem 2.5rem;
+    justify-content: flex-start;
+    letter-spacing: 3px;
+    color: #202124;
+}
+.contenedorBotones{
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    margin-left: 7.5rem;
+}
+.btn{
+    margin: 2rem;
+    height: 9.5rem;
+    width: 35rem;
+    font-size: 2.5rem;
+    text-align: center;
+    background-color: #116530;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #B22727;
+}
+
+.campo-inicio {
+    margin-top: 2rem;  
+    text-align: right;
+    padding-right: 1.5rem;
+    flex-shrink: 2;
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+    color: #202124;
+}
+a:hover{
+    color: #2a5e33;
+    text-decoration: underline;
+}
+span{
+    font-size: 2rem ;
+    color: #202124;
+    font-weight: lighter;
+}

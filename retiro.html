@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero ATM</title>
+    <link rel="icon" href="./img/logo-atm.png">
+    <link rel="stylesheet" href="./css/style-funciones.css">
+</head>
+
+<body>
+    <div class="container">
+        <main class="container__main">
+            <div class="contenedorLogo">
+                <h1 class="logo">Cajero ATM</h1>
+            </div>
+            <div class="contanedorBienvenido">
+                <h1 class="titulo">Usuario:
+                    <span id="nombreUsuario"></span>
+                </h1>
+            </div>
+            <div class="container-form">
+                <!-- Bloque del titulo del formulario -->
+                <div class="container-title">
+                    <h1>Retiro de efectivo</h1>
+                </div>
+                <!-- Bloque del formulario -->
+                <form class="formulario" id="retirarEfectivo">
+                    <div class="campo">
+                        <label class="campo__label" for="saldoAnterior">Saldo Anterior:</label>
+                        <input 
+                            class="campo__field" 
+                            type="text" 
+                            id="saldoAnterior"
+                            autocomplete="off"
+                            disabled
+                        >
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="saldoRetiro">Retiro de efectivo:</label>
+                        <input 
+                            class="campo__field" 
+                            type="text" 
+                            placeholder="Monto a retirar" 
+                            id="saldoRetiro"
+                            autocomplete="off"
+                            
+                        >
+                    </div>
+                    <div class="campo campo-btn">
+                        <input 
+                            type="submit" 
+                            value="Retirar" 
+                            class="boton"
+                            id="retirar"
+                        >
+                    </div>
+                    <div class="campo">
+                        <label class="campo__label" for="saldoActual">Saldo Disponible:</label>
+                        <input 
+                            class="campo__field" 
+                            type="text" 
+                            id="saldoActual"
+                            autocomplete="off"
+                            disabled
+                        >
+                    </div>
+                    <div class="campo campo-crear">
+                        <p>Regresar al menú:<span>
+                                <a href="./menu.html">Menú</a>
+                            </span></p>
+                    </div>
+                </form>
+        </main>
+        <aside class="containerSidebar"></aside>
+    </div>
+    <script src="./js/scripts-retirar.js"></script>
+</body>
+
+</html>

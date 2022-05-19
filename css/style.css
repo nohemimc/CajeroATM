@@ -1,0 +1,138 @@
+:root {
+    --fuente: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --gris: #e1e1e1;
+    --blanco: #ffffff;
+    --negro: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+body{
+    font-family: var(--fuente);
+}
+/* Start section Buttoms */
+.campo-btn{
+    justify-content: flex-end;
+}
+.boton {
+    display: block;
+    color: var(--blanco);
+    text-align: center;
+    padding: 1rem 3rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    border: none;
+}
+.boton:hover {
+    cursor: pointer;
+}
+.boton--primario {
+    background-color: var(--negro);
+}
+/* End section buttoms */
+
+
+/*  Start Home  */
+/* Estilo a todo el contenedor principal */
+.container-main {
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo al bloque contenedor del formulario */
+.container-form {
+    background-color: var(--blanco);
+    width: 45%;
+    height: 67%;
+
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    padding: 2rem;
+    color: #202124;
+    font-size: 1.8rem;
+
+}
+
+/* Estilo al bloque contenedor del titulo */
+.container-title{
+    margin: 1.5rem, 3rem;
+    flex-basis: auto;
+}
+/*
+
+/* Start Formulario: Inicio de sesión */
+.formulario {
+    padding: 5rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.campo__label {
+    flex: 0 0 10rem;
+    text-align: right;
+    padding-right: 1rem;
+    align-self: center;
+}
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+    background-color: #DDDDDD;
+    height: 4rem;
+    padding-left: 1rem;
+    flex-shrink: 1;
+}
+.campo-crear{
+    justify-content: right;
+    align-items:center;
+    margin-top: 3.5rem;
+}
+/* Clases para alertas */
+.error {
+    background-color: #B20600;
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+}
+.correcto {
+    background-color: #2a5e33;
+    text-align: center;
+    padding: 1rem;
+    color: var(--blanco);
+}
+/* Barra lateral */
+.aside {
+    height: auto;
+    margin: 0.5rem;
+    background-image: url(/ProyectoFinal_ATM/img/cajero-automatico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.3rem;
+    background-position: center center;
+}
+
+a{
+    text-decoration: none;
+    color: #202124;
+}
+a:hover{
+    color: #2a5e33;
+    text-decoration: underline;
+    cursor: pointer;
+}

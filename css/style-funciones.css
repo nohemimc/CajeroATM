@@ -1,0 +1,140 @@
+:root {
+    --fuente: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+body{
+    font-family: var(--fuente);
+}
+.container{
+    background-color: white; 
+    display: flex;
+}
+.container__main{
+    width: 55%;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+}
+.containerSidebar {
+    width: 45%;
+    height: 100vh;
+    float: right;
+    background-image: url(/img/cajero-automatico.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.contenedorLogo h1{
+    margin: 3rem;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.contanedorBienvenido h1{
+    padding: 2rem;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 2rem;
+    color: #202124;
+    letter-spacing: 2px;
+}
+.container-title{
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+}
+.container-form{
+    border-radius: 0.3rem;
+    margin: 0.5rem;
+    padding: 2rem;
+    color: #202124;
+    font-size: 1.8rem;
+}
+
+.formulario {
+    padding: 1rem;
+}
+.campo {
+    display: flex;
+    margin-bottom: 2rem;  
+}
+
+.campo__label {
+    flex: 0 0 20rem;
+    text-align: right;
+    padding-right: 1rem;
+    align-self: center;
+    flex-shrink: 2;
+}
+
+.campo__field {
+    flex: 1;
+    border: 1px solid var(--gris);
+    background-color: #DDDDDD;
+    height: 4rem;
+    padding-left: 1rem;
+}
+.campo-crear{
+    justify-content: right;
+    align-items:center;
+    margin-top: 3.5rem;
+}
+.campo-btn{
+    margin-top: 2rem;
+    justify-content: right;
+    align-items: center;
+}
+.boton { 
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    border: none; 
+    padding: 1rem 3rem;
+    background-color: #116530;
+}
+.boton:hover{
+    cursor: pointer;
+    background-color: #B22727;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #202124;
+}
+a:hover{
+    color: #116530;
+    text-decoration: underline;
+}
+span{
+    font-size: 2rem ;
+    color: #202124;
+    font-weight: lighter;
+}
+/* Clases para alertas */
+.error {
+    background-color: #B20600;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}
+.correcto {
+    background-color: #2a5e33;
+    text-align: center;
+    padding: 1rem;
+    color: white;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero ATM</title>
+    <link rel="icon" href="./img/logo-atm.png">
+    <!-- CSS Puro -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <!-- Start Home -->
+    <div class="container-main">
+        <div class="container-form">
+            <!-- Bloque del titulo del formulario -->
+            <div class="container-title">
+                <h1>Crea tu cuenta</h1>
+                <span>En cuestión de segundos</span>
+            </div>
+            <!-- Bloque del formulario -->
+            <form class="formulario" id="crearUsuario">
+                <div class="campo">
+                    <label class="campo__label" for="usuario">Usuario:</label>
+                    <input 
+                        class="campo__field" 
+                        type="text" 
+                        placeholder="Usuario" 
+                        id="usuario"
+                        autocomplete="off"   
+                    >
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="password">Contraseña:</label>
+                    <input 
+                        class="campo__field" 
+                        type="password" 
+                        placeholder="Establece una contraseña" 
+                        id="password"
+                        autocomplete="off" 
+                    >
+                </div>
+                <div class="campo campo-btn">
+                    <input 
+                        type="submit" 
+                        value="Crear cuenta" 
+                        class="boton boton--primario">
+                </div>
+                <div class="campo campo-crear">
+                    <p>Regresar a la página de inicio:<span>
+                        <a href="./index.html">Home</a>
+                    </span></p>
+                </div>
+           </form> 
+        </div>
+    </div>
+    <!-- JS -->
+    <script src="./js/scripts.js"></script>
+</body>
+
+</html>

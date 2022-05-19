@@ -43,7 +43,7 @@ body{
 /*  Start Home  */
 /* Estilo a todo el contenedor principal */
 .container-main {
-    background-image: url(/img/background.jpg);
+    background-image: url(./img/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -120,7 +120,7 @@ body{
 .aside {
     height: auto;
     margin: 0.5rem;
-    background-image: url(/ProyectoFinal_ATM/img/cajero-automatico.jpg);
+    background-image: url(./img/cajero-automatico.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 0.3rem;

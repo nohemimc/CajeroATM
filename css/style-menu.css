@@ -26,7 +26,7 @@ body{
 .containerSidebar {
     width: 50%;
     height: 100vh;
-    background-image: url(/img/cajero-automatico.jpg);
+    background-image: url(./img/cajero-automatico.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
